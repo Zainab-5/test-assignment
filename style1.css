@@ -1,0 +1,132 @@
+.back{
+   display: flex;
+   margin-top: 40px;
+   width: 100%;
+   box-sizing: border-box;
+   font-style: italic;
+}
+
+.alert {
+    width: 350px;
+    margin: 2rem auto;
+    background-color: #d4edda;
+    color: #155724;
+    padding: 20px;
+    border-radius: 0.25rem;
+    display: none;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 10px;;
+
+}
+
+.container{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.progress{
+    width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section1{
+    height: auto;
+    margin-top: 0px;
+    margin-top: 0px;
+    margin: auto;
+    padding: 20px;
+    color: gray;
+    font-size: 23px;
+    padding-top: 40px;
+    border: thin solid lightgray;
+}
+
+.p-t-20{
+   padding-top: 20px;
+}
+
+ input{
+      width: 40%;
+      color: lightgray;
+      font-size: inherit ;
+      border-radius: 8px;
+      height:70px;
+      float:left;
+      margin-top: 45px;
+      border: solid thin lightgrey;
+      text-align: center;
+}
+
+.givBtn{
+    width: 40%;
+    padding-top: 20px;
+    border-radius: 8px;
+    height:50px;
+    float:right;
+    margin-top: 20px;
+    border: solid thin lightgrey;
+    text-align: center;
+    color:white;
+    background-color: darkgreen;
+}
+.yBtn{
+    display: flex;
+    padding: 10px;
+    padding-bottom: 0px;
+    width: 100%;
+    color: darkblue;
+}
+
+.section2{
+    display: flex;
+    padding-bottom: 0px;
+    width: 400px;
+    color: darkblue;
+    margin-top: 15px;
+}
+
+.btn{
+    border: solid thin lightgray;
+    color:gray;
+    border-radius: 3px;
+    padding-top: 30px;
+    padding-bottom: 35px;
+    line-height: 7px;
+    width: 40%;
+    height:50px;
+    float: left;
+    margin-top: 0px;
+}
+
+.f-r{
+  float: right;
+  margin-left: 80px;
+}
+
+@media only screen and (max-width: 600px) {
+
+  input{
+    display: block;
+    float: none;
+    width: 70%;
+    margin : auto;
+    margin-top: 20px;
+  }
+
+  .givBtn{
+    display: block;
+    float: none;
+    width: 70%;
+    margin : auto;
+  }
+  .yBtn{
+    display: block;
+    float: none;
+    width: 70%;
+    margin : auto;
+    text-align: center;
+  }
+}
